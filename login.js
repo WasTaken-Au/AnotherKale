@@ -8,7 +8,7 @@ function validateUserInput() {
     if (emailList.includes(inputName)) {
         const emailTag = emailList.indexOf(inputName)
         if (inputPassword === passwordList[emailTag]) {
-            window.location.href = "src/pages/home.html"
+            window.location.href = "WasTaken-Au/AnotherKale/src/pages/home.html"
             alert("Login successful.")
         } else {
             alert("Password is incorrect.")
