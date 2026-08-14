@@ -201,6 +201,9 @@ body {
   color: black;
 }
 
+.widget .mainbar .unavailable {
+  opacity: 0.5;
+}
 
 .headline {
   color: white;
