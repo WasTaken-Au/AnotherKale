@@ -281,6 +281,11 @@ body {
   color: black;
 }
 
+.nextButton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;  
+}
+
 .label {
   color: white;
   font-size: 30px;
@@ -317,6 +322,11 @@ body {
 .choose-button:hover {
   background-color: white;
   color: black;
+}
+
+.choose-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
 }
 
 .feedback-text {
