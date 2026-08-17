@@ -6,7 +6,6 @@ body {
 .topnav {
   overflow: hidden;
   border: 4px solid white;
-  border-radius: 15px;
 }
 
 /* Style the links inside the navigation bar */
