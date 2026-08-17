@@ -10,7 +10,7 @@ body {
 }
 
 /* Style the links inside the navigation bar */
-.topnav .home {
+.topnav a {
   float: left;
   color: #f2f2f2;
   text-align: center;
@@ -18,59 +18,25 @@ body {
   text-decoration: none;
   font-size: 17px;
   font-family: 'Inter', sans-serif;
-
-  transition-duration: 0.2s;
 }
 
 /* Change the color of links on hover */
-.topnav .home:hover {
+.topnav a:hover {
   background-color:white;
   color: black;
 }
 
 /* Add a color to the active/current link */
-.topnav .home .active {
+.topnav a.active {
   background-color: black;
   color: white;
 }
 
-.topnav .settings {
-  position: relative;
-}
-
-.topnav .settings .settings-btn {
+.topnav a.split {
   float: right;
   background-color: grey;
   color: white;
-  border: none;
 }
-
-.topnav .settings .settings-content {
-  display: none;
-  position: absolute;
-  background-color: grey;
-  min-width: 200px;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {
-  background-color: #3d3030;
-}
-
-.settings:hover .settings-content {
-  display: block;
-}
-
-.settings:hover .settings-btn {
-  background-color: #333333;
-}
-
 
 
 
