@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="icon" type="image/x-icon" href="https://app.notion.com/icons/chess-king_gray.svg?mode=dark">
+    <link rel="stylesheet" href="global.css">
+    <script  src="script.js" defer></script>
+</head>
+<body>
+    <div class="topnav"> 
+        <a href="#home" onclick="window.location.href='home.html'">Kale</a>
+        <a href="#settings" class="split">Settings</a>
+    </div>
+    <h1 class="headline">Language and Literature - Topics</h1>
+    <div class="courseBar">
+        <button id="button1" class="course-button" onclick="establishPage('2-0')"></button>
+        <button id="button2" class="course-button" onclick="establishPage('2-1')"></button>
+        <button id="button3" class="course-button" onclick="establishPage('2-2')"></button>
+        <button id="button4" class="course-button" onclick="establishPage('2-3')"></button>
+        <button id="button5" class="course-button" onclick="establishPage('2-4')"></button>
+    </div>
+
+    <script>
+        const introduction = {
+            "topics":["Preface","Subjects and Criteria","Strands and Bands","TSC and Command Terms","Grading and Evaluation"]
+        };
+
+        document.getElementById("button1").textContent = introduction.topics[0];
+        document.getElementById("button2").textContent = introduction.topics[1];
+        document.getElementById("button3").textContent = introduction.topics[2];
+        document.getElementById("button4").textContent = introduction.topics[3];
+        document.getElementById("button5").textContent = introduction.topics[4];
+    </script>
+
+</body>
+</html>
