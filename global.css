@@ -19,13 +19,11 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
-/* Change the color of links on hover */
 .topnav a:hover {
   background-color:white;
   color: black;
 }
 
-/* Add a color to the active/current link */
 .topnav a.active {
   background-color: black;
   color: white;
