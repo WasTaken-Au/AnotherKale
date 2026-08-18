@@ -8,9 +8,7 @@ function establishPage(topic) {
 }
 
 function goToHome(page) {
-    if (page == 'course' && confirm("Do you want to leave topic?\nProgress will not be saved.")) {
-        window.location.href='home.html'
-    } else {
-        window.location.href='home.html'
+    if (confirm("Do you want to leave topic?\nProgress will not be saved.") == true) {
+        window.location.href=page
     }
 }
