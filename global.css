@@ -84,6 +84,12 @@ body {
   color: white;
 }
 
+.subchapter {
+  color: white;
+  font-family: 'Inter', sans-serif;
+  margin-left: 25px;
+}
+
 .login-box {
   display: flex;
   gap: 10px;
