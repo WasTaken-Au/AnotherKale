@@ -348,3 +348,42 @@ body {
   font-family: 'Inter', sans-serif;
   text-align: center;
 }
+
+.log-out-button {
+  margin-top: 40px;
+  margin-left: 30px;
+  margin-right: 30px;
+
+  font-size: 30px;
+  font-family: 'Inter', sans-serif;
+  color: white;
+  background-color: black;
+  border: 3px solid white;
+  cursor: pointer;
+
+  transition-duration: 0.2s;
+}
+
+.log-out-button:hover {
+  background-color: white;
+  color: black;
+}
+
+.learn-more {
+  margin-top: 40px;
+  margin-left: 30px;
+  margin-right: 30px;
+
+  font-size: 30px;
+  font-family: 'Inter', sans-serif;
+  color: white;
+}
+
+.form-link {
+  font-size: 30px;
+  font-family: 'Inter', sans-serif;
+  color: greenyellow;
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
